@@ -1,36 +1,31 @@
 .My_bank{
     text-align: center;
     background-color:  rgb(0, 0, 58);
-    padding: 15px;
-    margin: 1px;
+    padding: 15px;  
     color: white;
-    
+}
+.My_bank img{
+    width: 70px;
+    height: auto;
+    float: left;
 }
 .service{
     text-align: center;
     background-color:  rgb(201, 201, 243) ;
 }
-.service_button{
+.service_button {
     background-color:  rgb(0, 0, 58);
-    padding: 10px;
-    margin: 5px;
-    box-shadow: 10px 20px 10px black;
-    border-color: black;
-    border-style: solid;
-    border-radius: 10px;
-    text-align: center;
+    box-shadow: 10px 20px 10px rgb(89, 91, 105);
+    text-align: left;
     height: auto;
 }
-.btns{
-    padding: 10px;
-    margin: 15px;
-    border-radius: 50px;
-    background-color:  rgb(201, 201, 243);
+.service_button ul li {
+    padding: 20px 0px;
+    list-style: none;
 }
-.btns:hover{
+.btns{
+    padding: 35px 0px;
     color: white;
-    background-color: rgb(0, 0, 58) ;
-    box-shadow: 0px 20px 10px black;
 }
 .detail{
     text-align: center;
@@ -40,6 +35,10 @@
     background-color:  rgb(0, 0, 58);
     border-radius: 50px;
     color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 50px;
+    text-align: left;
+}
+#usr_detail{
+    margin: 3px;
+    
 }
